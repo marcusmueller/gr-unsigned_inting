@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<block>
+  <name>try_to_use_unsigned_int</name>
+  <key>unsigned_inting_try_to_use_unsigned_int</key>
+  <category>unsigned_inting</category>
+  <import>import unsigned_inting</import>
+  <make>unsigned_inting.try_to_use_unsigned_int($a, $b)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>a</name>
+    <key>a</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>b</name>
+    <key>b</key>
+    <type>int</type>
+  </param>
+
+</block>
